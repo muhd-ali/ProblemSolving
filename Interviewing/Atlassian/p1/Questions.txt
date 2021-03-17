@@ -1,0 +1,14 @@
+city attractions;
+
+
+reconstructing array from totalcost, m(max value, min = 1) and n(size)
+currentMaximumElement = element[0]
+totalCost = 0
+
+for (i = 1; i < n; i += 1) {
+    if (element[i] > currentMaximumElement) {
+        currentMaximumElement = element[i]
+
+        totalCost += 1
+    }
+}

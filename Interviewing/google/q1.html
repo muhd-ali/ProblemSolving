@@ -1,0 +1,35 @@
+<div class="Tabs__Body-sc-1wbc56k-3 eGjKl"><div class="Box__FloatingBox-sc-1kl74pd-2 dYLBIZ Box__Wrapper-sc-1kl74pd-1 dJzeFx"><div class="Box__ChildWrapper-sc-1kl74pd-0 hVenIw" style="height: 100%; position: relative;"><div style="height: 100%; overflow: auto;" id="standard_task_description" class="protected"><div class="task-description-content">
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+
+<div id="brinza-task-description">
+<p>Assume you are given a tree of N nodes. The nodes are numbered from 0 to N−1 and their parents are represented in an array A, such that A[i] denotes the number of the parent of the i-th node. Node 0 is the root node and it will not have a parent, so the corresponding value in array A will be −1. We define the distance between two nodes to be the length of the shortest path between them, and we define an ancestor of the i-th node as any node lying on the shortest path between the i-th node and the root. Your goal is to find the ancestor at distance D of every node of the tree.</p>
+<p>Write a function</p>
+<blockquote><p style="font-family: monospace; font-size: 9pt; display: block; white-space: pre-wrap"><tt>def solution(D, A)</tt></p></blockquote>
+<p>that, given an integer D and array A of N integers, returns an array of N integers representing the ancestors at distance D of the consecutive nodes. If a node doesn't have an ancestor at distance D its field should contain −1.</p>
+<p>For example, given integer D = 2 and array A such that:</p>
+<tt style="white-space:pre-wrap">  A[0] = -1
+  A[1] = 0
+  A[2] = 1
+  A[3] = 2
+  A[4] = 3</tt>
+<p>your function should return [−1, −1, 0, 1, 2].</p>
+<p><img class="inline-description-image" src="https://codility-frontend-prod-g.s3.amazonaws.com/media/task_static/ancestor_distance/static/images/auto/d7691cb81fc74c7bbe2cb6b284d7ef44.png"></p>
+<p>Given D = 3 and array A such that:</p>
+<tt style="white-space:pre-wrap">  A[0] = -1
+  A[1] = 0
+  A[2] = 4
+  A[3] = 2
+  A[4] = 1</tt>
+<p>your function should return [−1, −1, 0, 1, −1].</p>
+<p><img class="inline-description-image" src="https://codility-frontend-prod-g.s3.amazonaws.com/media/task_static/ancestor_distance/static/images/auto/66e7e79d423eecb20866bdc339a897d4.png"></p>
+<p>Write an <b><b>efficient</b></b> algorithm for the following assumptions:</p>
+<blockquote><ul style="margin: 10px;padding: 0px;"><li>N and D are integers within the range [<span class="number">1</span>..<span class="number">1,000</span>];</li>
+<li>the first element of array A equals −1;</li>
+<li>each element of array A, besides the first one, is an integer within the range [0..N−1];</li>
+<li>array A represents a valid tree.</li>
+</ul>
+</blockquote></div>
+
+</div></div></div></div></div>
